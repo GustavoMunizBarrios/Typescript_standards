@@ -1,6 +1,5 @@
 
-function saludar(name: string) {
+function saluda(name: string) {
     console.log(`Hola ${name}`);
 }
-
-saludar('Gustavo')
+saluda('Gustavo')

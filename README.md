@@ -1,0 +1,1 @@
+This repository contains several examples of the Typescript language syntax.

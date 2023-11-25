@@ -9,9 +9,9 @@ type HeroBasicInfo = {
     age: number
 }
 type HeroProperties = { // !! Importante !! siempre se empieza en mayusculas
-    readonly id?: HeroId, // readonly evita que el id (que es opcional) no pueda ser cambiado
+    readonly id?: HeroeId, // readonly evita que el id (que es opcional) no pueda ser cambiado
     isActive?: boolean, // '?' para que la propiedad es opcional, es decir que si esta es de tipo booleano, pero si no, no hay problema
-    powerScale?: HeroPowerScale
+    powerScale?: HeroePowerScale
 }
 type Heroe_ = HeroBasicInfo & HeroProperties //Insertion Types // este es un tipo con las propiedades de HeroBasicInfo y de HeroProperties
 

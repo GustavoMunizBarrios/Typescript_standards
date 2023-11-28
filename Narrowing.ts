@@ -15,4 +15,4 @@ function mostrarLongitud (objeto: number | string) {
 
 }
 
-mostrarLongitud('134')
+mostrarLongitud(345678)
